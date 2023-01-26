@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="30dp"
+    android:layout_marginStart="30dp"
+    android:gravity="center"
+    tools:context=".ProfilSekolahActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvProfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profil Sekolah"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgSekolah"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo" />
+            <TextView
+                android:id="@+id/tvVisiMisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="15dp"
+                android:text="Visi  Misi"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_teks"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:textAlignment="center">
+
+
+            <TextView
+                android:id="@+id/tvVisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text=" Visi :"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvIsiVisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terwujudnya SMK Muhammadiyah Prambanan sebagai pencetak Sumber Daya Manusia (SDM)  yang Bertakwa, Berakhlak Mulia, Kompeten dan Berwawasan Global."
+                android:textColor="@color/black"
+                android:textSize="11dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvMisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Misi :"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvIsiMisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Membentuk jiwa nasionalisme dan cinta tanah air. Menumbuhkan karakter sesuai budaya luhur melayu Riau. Mengembangkan sistem pendidikan dan latihan yang bermutu dan berdaya saing. Mengembangkan sistem pembelajaran yang mendorong terbentuknya sikap kritis, kreatif, inovatif, komunikatif, kolaboratif dan adaptatif. Membentuk lingkungan belajar yang mendorong berkembangnya wawasan regional, nasional dan internasional."
+                android:textColor="@color/black"
+                android:textSize="11dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

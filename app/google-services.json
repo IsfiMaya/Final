@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "975318740184",
+    "project_id": "progressproject-fce86",
+    "storage_bucket": "progressproject-fce86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975318740184:android:a46fe3c3a016d50b7f3bad",
+        "android_client_info": {
+          "package_name": "com.example.progressproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975318740184-7q5b3dtrrin3955mpt5gdijn6coeb136.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnAg2OZ2CCZ2TMuxz64aEFZlcjOsI-x6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975318740184-7q5b3dtrrin3955mpt5gdijn6coeb136.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

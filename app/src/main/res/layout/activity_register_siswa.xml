@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    tools:context=".RegisterSiswaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:text="Lengkapi Profilmu"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imgViewMurid"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/murid" />
+        <TextView
+            android:id="@+id/tvNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Siswa"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtNama"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Nama"/>
+
+    <TextView
+        android:id="@+id/tvNisn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NISN"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtNisn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="NISN"/>
+
+    <TextView
+        android:id="@+id/tvKelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtKelas"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Kelas"/>
+
+    <TextView
+        android:id="@+id/tvJenisKelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtJenisKelamin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Jenis Kelamin"/>
+        <TextView
+            android:id="@+id/tvTtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tempat, Tanggal Lahir"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtTtl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Tempat, Tanggal Lahir"/>
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Password" />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="42dp"
+        android:backgroundTint="#9ED5C5"
+        android:text="Daftar"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>

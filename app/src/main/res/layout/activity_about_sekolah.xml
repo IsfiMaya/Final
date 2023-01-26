@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="1dp"/>
+
+    <ImageView
+        android:id="@+id/imgMaps"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/mapss" />
+    <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9ED5C5"
+        android:layout_marginBottom="5dp"
+        android:text="Maps"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imgTata"
+        android:layout_width="161dp"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/tata"/>
+
+    <Button
+        android:id="@+id/btnTata"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9ED5C5"
+        android:text="Tata Tertib"
+        android:textColor="@color/black"
+        android:layout_marginBottom="5dp"/>
+
+    <ImageView
+        android:id="@+id/imgSekolah"
+        android:layout_width="145dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/logo"/>
+
+
+    <Button
+        android:id="@+id/btnProfilSekolah"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9ED5C5"
+        android:text="Profil Sekolah"
+        android:textColor="@color/black"/>
+</LinearLayout>

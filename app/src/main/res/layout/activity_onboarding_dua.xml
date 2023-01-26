@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginEnd="30dp"
+    android:layout_marginStart="30dp">
+
+    <TextView
+        android:id="@+id/tvSkip"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:gravity="right"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/imagedua"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="TAPI TAKUTNYA BINGUNG &amp; RIBET..."/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="wah, ribet juga ya kalo gitu. kira-kira enaknya gimana ya? hmm..."/>
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="right"
+        android:background="@drawable/rounded_hijau"
+        android:text="Next"/>
+
+</LinearLayout>
